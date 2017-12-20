@@ -7,6 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		083046441FE7F1EC00CB978B /* ThresholdPanGesture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0830463E1FE7F1EC00CB978B /* ThresholdPanGesture.swift */; };
+		083046451FE7F1EC00CB978B /* VirtualObjectInteraction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0830463F1FE7F1EC00CB978B /* VirtualObjectInteraction.swift */; };
+		083046481FE7F1EC00CB978B /* VirtualObjectARView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 083046421FE7F1EC00CB978B /* VirtualObjectARView.swift */; };
+		083046491FE7F1EC00CB978B /* ViewController+ARSCNViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 083046431FE7F1EC00CB978B /* ViewController+ARSCNViewDelegate.swift */; };
+		083046551FE7F25800CB978B /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0830464B1FE7F25800CB978B /* Utilities.swift */; };
+		083046571FE7F25800CB978B /* StatusViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0830464E1FE7F25800CB978B /* StatusViewController.swift */; };
+		083046581FE7F25800CB978B /* FocusSquareSegment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 083046501FE7F25800CB978B /* FocusSquareSegment.swift */; };
+		083046591FE7F25800CB978B /* FocusSquare.swift in Sources */ = {isa = PBXBuildFile; fileRef = 083046511FE7F25800CB978B /* FocusSquare.swift */; };
+		083046601FE81E7100CB978B /* environment_blur.exr in Resources */ = {isa = PBXBuildFile; fileRef = 0830465E1FE81E7100CB978B /* environment_blur.exr */; };
+		083046611FE81E7100CB978B /* environment.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0830465F1FE81E7100CB978B /* environment.jpg */; };
+		083046631FEA9A5700CB978B /* ViewController+Actions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 083046621FEA9A5700CB978B /* ViewController+Actions.swift */; };
 		083CC1221FBE74CB005C58DC /* PlanetNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 083CC1211FBE74CB005C58DC /* PlanetNode.swift */; };
 		085E4C351FB2AB6200CF7EDD /* Planet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 085E4C341FB2AB6200CF7EDD /* Planet.swift */; };
 		085E4C371FB2DCEC00CF7EDD /* PlanetEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 085E4C361FB2DCEC00CF7EDD /* PlanetEnum.swift */; };
@@ -20,6 +31,17 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0830463E1FE7F1EC00CB978B /* ThresholdPanGesture.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThresholdPanGesture.swift; sourceTree = "<group>"; };
+		0830463F1FE7F1EC00CB978B /* VirtualObjectInteraction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VirtualObjectInteraction.swift; sourceTree = "<group>"; };
+		083046421FE7F1EC00CB978B /* VirtualObjectARView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VirtualObjectARView.swift; sourceTree = "<group>"; };
+		083046431FE7F1EC00CB978B /* ViewController+ARSCNViewDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ViewController+ARSCNViewDelegate.swift"; sourceTree = "<group>"; };
+		0830464B1FE7F25800CB978B /* Utilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
+		0830464E1FE7F25800CB978B /* StatusViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StatusViewController.swift; sourceTree = "<group>"; };
+		083046501FE7F25800CB978B /* FocusSquareSegment.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FocusSquareSegment.swift; sourceTree = "<group>"; };
+		083046511FE7F25800CB978B /* FocusSquare.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FocusSquare.swift; sourceTree = "<group>"; };
+		0830465E1FE81E7100CB978B /* environment_blur.exr */ = {isa = PBXFileReference; lastKnownFileType = file; path = environment_blur.exr; sourceTree = "<group>"; };
+		0830465F1FE81E7100CB978B /* environment.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = environment.jpg; sourceTree = "<group>"; };
+		083046621FEA9A5700CB978B /* ViewController+Actions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ViewController+Actions.swift"; sourceTree = "<group>"; };
 		083CC1211FBE74CB005C58DC /* PlanetNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanetNode.swift; sourceTree = "<group>"; };
 		085E4C341FB2AB6200CF7EDD /* Planet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Planet.swift; sourceTree = "<group>"; };
 		085E4C361FB2DCEC00CF7EDD /* PlanetEnum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanetEnum.swift; sourceTree = "<group>"; };
@@ -45,6 +67,59 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0830464A1FE7F25800CB978B /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				0830464B1FE7F25800CB978B /* Utilities.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		0830464C1FE7F25800CB978B /* Additional View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				0830464E1FE7F25800CB978B /* StatusViewController.swift */,
+			);
+			path = "Additional View Controllers";
+			sourceTree = "<group>";
+		};
+		0830464F1FE7F25800CB978B /* Focus Square */ = {
+			isa = PBXGroup;
+			children = (
+				083046501FE7F25800CB978B /* FocusSquareSegment.swift */,
+				083046511FE7F25800CB978B /* FocusSquare.swift */,
+			);
+			path = "Focus Square";
+			sourceTree = "<group>";
+		};
+		083046521FE7F25800CB978B /* Virtual Objects */ = {
+			isa = PBXGroup;
+			children = (
+				085E4C341FB2AB6200CF7EDD /* Planet.swift */,
+				085E4C361FB2DCEC00CF7EDD /* PlanetEnum.swift */,
+				08BB2CDC1FE0E777002F39F1 /* PlanetLoop.swift */,
+				083CC1211FBE74CB005C58DC /* PlanetNode.swift */,
+			);
+			path = "Virtual Objects";
+			sourceTree = "<group>";
+		};
+		0830465C1FE81E4900CB978B /* Res */ = {
+			isa = PBXGroup;
+			children = (
+				0830465D1FE81E7100CB978B /* sharedImages */,
+			);
+			path = Res;
+			sourceTree = "<group>";
+		};
+		0830465D1FE81E7100CB978B /* sharedImages */ = {
+			isa = PBXGroup;
+			children = (
+				0830465E1FE81E7100CB978B /* environment_blur.exr */,
+				0830465F1FE81E7100CB978B /* environment.jpg */,
+			);
+			path = sharedImages;
+			sourceTree = "<group>";
+		};
 		086032C31FA4380300A046CF = {
 			isa = PBXGroup;
 			children = (
@@ -64,13 +139,19 @@
 		086032CE1FA4380300A046CF /* ARSolarPlaySwift */ = {
 			isa = PBXGroup;
 			children = (
-				085E4C341FB2AB6200CF7EDD /* Planet.swift */,
-				085E4C361FB2DCEC00CF7EDD /* PlanetEnum.swift */,
-				08BB2CDC1FE0E777002F39F1 /* PlanetLoop.swift */,
-				083CC1211FBE74CB005C58DC /* PlanetNode.swift */,
-				086032CF1FA4380300A046CF /* AppDelegate.swift */,
-				086032D11FA4380300A046CF /* art.scnassets */,
 				086032D31FA4380300A046CF /* ViewController.swift */,
+				0830463E1FE7F1EC00CB978B /* ThresholdPanGesture.swift */,
+				083046621FEA9A5700CB978B /* ViewController+Actions.swift */,
+				083046431FE7F1EC00CB978B /* ViewController+ARSCNViewDelegate.swift */,
+				083046421FE7F1EC00CB978B /* VirtualObjectARView.swift */,
+				0830463F1FE7F1EC00CB978B /* VirtualObjectInteraction.swift */,
+				086032CF1FA4380300A046CF /* AppDelegate.swift */,
+				0830464C1FE7F25800CB978B /* Additional View Controllers */,
+				0830464F1FE7F25800CB978B /* Focus Square */,
+				0830464A1FE7F25800CB978B /* Utilities */,
+				0830465C1FE81E4900CB978B /* Res */,
+				083046521FE7F25800CB978B /* Virtual Objects */,
+				086032D11FA4380300A046CF /* art.scnassets */,
 				086032D51FA4380400A046CF /* Main.storyboard */,
 				086032D81FA4380400A046CF /* Assets.xcassets */,
 				086032DA1FA4380400A046CF /* LaunchScreen.storyboard */,
@@ -139,7 +220,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				086032D21FA4380300A046CF /* art.scnassets in Resources */,
+				083046611FE81E7100CB978B /* environment.jpg in Resources */,
 				086032DC1FA4380400A046CF /* LaunchScreen.storyboard in Resources */,
+				083046601FE81E7100CB978B /* environment_blur.exr in Resources */,
 				086032D91FA4380400A046CF /* Assets.xcassets in Resources */,
 				086032D71FA4380400A046CF /* Main.storyboard in Resources */,
 			);
@@ -152,12 +235,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				083046491FE7F1EC00CB978B /* ViewController+ARSCNViewDelegate.swift in Sources */,
+				083046631FEA9A5700CB978B /* ViewController+Actions.swift in Sources */,
 				085E4C371FB2DCEC00CF7EDD /* PlanetEnum.swift in Sources */,
+				083046441FE7F1EC00CB978B /* ThresholdPanGesture.swift in Sources */,
+				083046571FE7F25800CB978B /* StatusViewController.swift in Sources */,
+				083046481FE7F1EC00CB978B /* VirtualObjectARView.swift in Sources */,
+				083046551FE7F25800CB978B /* Utilities.swift in Sources */,
+				083046581FE7F25800CB978B /* FocusSquareSegment.swift in Sources */,
 				08BB2CDD1FE0E777002F39F1 /* PlanetLoop.swift in Sources */,
 				083CC1221FBE74CB005C58DC /* PlanetNode.swift in Sources */,
+				083046591FE7F25800CB978B /* FocusSquare.swift in Sources */,
 				085E4C351FB2AB6200CF7EDD /* Planet.swift in Sources */,
 				086032D41FA4380300A046CF /* ViewController.swift in Sources */,
 				086032D01FA4380300A046CF /* AppDelegate.swift in Sources */,
+				083046451FE7F1EC00CB978B /* VirtualObjectInteraction.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
